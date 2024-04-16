@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本过滤工具</title>
+</head>
+<body>
+    <h1>文本过滤工具</h1>
+    <input type="file" id="fileInput"><br>
+    <textarea id="stringsToFilter" rows="14" cols="150" placeholder="输入要过滤的字符串，每行一个"></textarea><br>
+    <button onclick="filterContent()">过滤内容(默认会过滤掉日期和空行)</button><br>
+    <textarea id="filteredText" rows="100" cols="150" placeholder="过滤后的内容将显示在这里"></textarea><br>
+    <script src="script.js"></script>
+</body>
+</html>
